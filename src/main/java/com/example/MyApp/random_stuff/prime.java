@@ -2,7 +2,7 @@ package com.example.MyApp.random_stuff;
 import java.util.Scanner;
 
 public class prime {
-    public static boolean is_prime(int n)
+    public  boolean is_prime(int n)
     {
         int k= (int) Math.sqrt(n);
         int no_factors=0;
@@ -20,8 +20,9 @@ public class prime {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter a number");
+        prime obj=new prime();
         int val=sc.nextInt();
-        if(is_prime(val))
+        if(obj.is_prime(val))
             System.out.println("number is prime");
         else
             System.out.println("number is not prime");
