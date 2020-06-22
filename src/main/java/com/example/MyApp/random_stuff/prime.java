@@ -11,7 +11,7 @@ public class prime {
             if(n%i==0)
                 no_factors++;
         }
-        if(no_factors==2)
+        if(no_factors+1==2)
             return true;
         else
             return false;
