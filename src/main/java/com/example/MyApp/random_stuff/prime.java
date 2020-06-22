@@ -6,7 +6,7 @@ public class prime {
     {
         int k= (int) Math.sqrt(n);
         int no_factors=0;
-        for(int i=1;i<=k;k++)
+        for(int i=1;i<=k;i++)
         {
             if(n%i==0)
                 no_factors++;
