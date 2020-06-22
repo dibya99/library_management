@@ -26,5 +26,13 @@ public class prime {
             System.out.println("number is prime");
         else
             System.out.println("number is not prime");
+        for(int i=2;i<=50;i++)
+        {
+            if(obj.is_prime(i))
+                System.out.println(i+" is prime");
+            else
+                System.out.println(i+" is not prime");
+
+        }
     }
 }
